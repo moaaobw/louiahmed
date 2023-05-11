@@ -5,7 +5,7 @@ from user_agent import generate_user_agent
 import logging
 from config import *
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-SUDO = int(os.environ.get("SUDO","2069112486"))
+SUDO = int(os.environ.get("SUDO","5525775616"))
 Heroku = os.environ.get("HEROKU", "APP-NAME")
 APP_URL = "https://"+ Heroku +".herokuapp.com/" + BOT_TOKEN
 from flask import Flask, request
@@ -31,7 +31,7 @@ def start(message):
 		bot.send_message(message.chat.id, text=f"- أهلاً {message.from_user.first_name}  !\n\n- بوت تشكير يوزرات تلجرام 🧑‍💻\n\n♻️ لوحة التحكم الخاصه بك ♨️",reply_markup=mas)
 	else:
 		rr = types.InlineKeyboardMarkup(row_width=2)
-		me = types.InlineKeyboardButton(text="يوزري",url="https://t.me/QQWGT")
+		me = types.InlineKeyboardButton(text="يوزري",url="https://t.me/Y_i_y_q")
 		ch = types.InlineKeyboardButton(text="▶ قناة البوت ◀",url="https://t.me/soresmaas")
 		rr.add(me,he,de)
 		rr.add(ch)
@@ -61,7 +61,7 @@ def masg(call):
 		
 		F = types.InlineKeyboardButton(text ="(UUU4UU)", callback_data="F7")
 		
-		M = types.InlineKeyboardButton('DEV', url='https://t.me/QQWGT')
+		M = types.InlineKeyboardButton('DEV', url='https://t.me/Y_i_y_q')
 		
 		bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id, text="- أهلاً بكً عزيزي المستخدم \n\n- بوت تشكير يوزرات تلجرام 🧑‍💻\n\n♻️ لوحة التحكم الخاصه بك ♨️",reply_markup=mas)
 	elif call.data == "SS":
@@ -102,7 +102,7 @@ def masg(call):
 			if response.text.find('If you have <strong>Telegram</strong>, you can contact <a class="tgme_username_link"')>=0 and d not in ban:
 				ok+=1
 				sk+=1
-				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحه ✓\n────── • ✧✧ • ──────\n‹ صدتلك يوزر : @{h}\n────── • ✧✧ • ──────\n•مطور البوت @QQWGT")
+				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحه ✓\n────── • ✧✧ • ──────\n‹ صدتلك يوزر : @{h}\n────── • ✧✧ • ──────\n•مطور البوت @Y_i_y_q")
 				
 			else:
 				cp+=1
@@ -177,7 +177,7 @@ def masg(call):
 			if response.text.find('If you have <strong>Telegram</strong>, you can contact <a class="tgme_username_link"')>=0 and g not in ban:
 				ok+=1
 				sk+=1
-				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحه ✓\n────── • ✧✧ • ──────\n‹ صدتلك يوزر : @{x}\n────── • ✧✧ • ──────\n• مطور البوت @QQWGT")
+				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحه ✓\n────── • ✧✧ • ──────\n‹ صدتلك يوزر : @{x}\n────── • ✧✧ • ──────\n• مطور البوت @Y_i_y_q")
 			else:
 				cp+=1
 				sk+=1
@@ -219,7 +219,7 @@ def masg(call):
 			if response.text.find('If you have <strong>Telegram</strong>, you can contact <a class="tgme_username_link"')>=0 and g not in ban:
 				ok+=1
 				sk+=1
-				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحه ✓\n────── • ✧✧ • ──────\n‹ صدتلك يوزر : @{x}\n────── • ✧✧ • ──────\n• مطور البوت @QQWGT")
+				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحه ✓\n────── • ✧✧ • ──────\n‹ صدتلك يوزر : @{x}\n────── • ✧✧ • ──────\n• مطور البوت @Y_i_y_q")
 			else:
 				cp+=1
 				sk+=1
@@ -259,7 +259,7 @@ def masg(call):
 			if response.text.find('If you have <strong>Telegram</strong>, you can contact <a class="tgme_username_link"')>=0 and g not in ban:
 				ok+=1
 				sk+=1
-				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحه ✓\n────── • ✧✧ • ──────\n‹ صدتلك يوزر : @{x}\n────── • ✧✧ • ──────\n• مطور البوت @QQWGT")
+				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحه ✓\n────── • ✧✧ • ──────\n‹ صدتلك يوزر : @{x}\n────── • ✧✧ • ──────\n• مطور البوت @Y_i_y_q")
 			else:
 				cp+=1
 				sk+=1
@@ -300,7 +300,7 @@ def masg(call):
 			if response.text.find('If you have <strong>Telegram</strong>, you can contact <a class="tgme_username_link"')>=0 and g not in ban:
 				ok+=1
 				sk+=1
-				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحه ✓\n────── • ✧✧ • ──────\n‹ صدتلك يوزر : @{x}\n────── • ✧✧ • ──────\n• مطور البوت @QQWGT")
+				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحه ✓\n────── • ✧✧ • ──────\n‹ صدتلك يوزر : @{x}\n────── • ✧✧ • ──────\n• مطور البوت @Y_i_y_q")
 			else:
 				cp+=1
 				sk+=1
@@ -342,7 +342,7 @@ def masg(call):
 			if response.text.find('If you have <strong>Telegram</strong>, you can contact <a class="tgme_username_link"')>=0 and f not in ban:
 				ok+=1
 				sk+=1
-				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحه ✓\n────── • ✧✧ • ──────\n‹ صدتلك يوزر : @{v}\n────── • ✧✧ • ──────\n• مطور البوت @QQWGT")
+				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحه ✓\n────── • ✧✧ • ──────\n‹ صدتلك يوزر : @{v}\n────── • ✧✧ • ──────\n• مطور البوت @Y_i_y_q")
 			else:
 				cp+=1
 				sk+=1
@@ -374,12 +374,12 @@ def masg(call):
             "User-Agent": generate_user_agent(),
             "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
             "Accept-Encoding": "gzip, deflate, br",
-            "Accept-Language" : "ar-EG,ar;q=0.9,en-US;q=0.8,en;q=0.7"}
+            "Accept-Language" : "ar-EG,ar;q=0.9,en-US;q=0.8,en;q=0.7"
 			response = requests.get(url, headers=headers)
 			if response.text.find('If you have <strong>Telegram</strong>, you can contact <a class="tgme_username_link"')>=0 and c not in ban:
 				ok+=1
 				sk+=1
-				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحه ✓\n────── • ✧✧ • ──────\n‹ صدتلك يوزر : @{c}\n────── • ✧✧ • ──────\n• مطور البوت @QQWGT")
+				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحه ✓\n────── • ✧✧ • ──────\n‹ صدتلك يوزر : @{c}\n────── • ✧✧ • ──────\n• مطور البوت @Y_i_y_q")
 				
 			else:
 				cp+=1
@@ -417,7 +417,7 @@ def masg(call):
 			if response.text.find('If you have <strong>Telegram</strong>, you can contact <a class="tgme_username_link"')>=0 and c not in ban:
 				ok+=1
 				sk+=1
-				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحه ✓\n────── • ✧✧ • ──────\n‹ صدتلك يوزر : @{c}\n────── • ✧✧ • ──────\n• مطور البوت @QQWGT")
+				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحه ✓\n────── • ✧✧ • ──────\n‹ صدتلك يوزر : @{c}\n────── • ✧✧ • ──────\n• مطور البوت @Y_i_y_q")
 				
 			else:
 				cp+=1
@@ -455,7 +455,7 @@ def masg(call):
 			if response.text.find('If you have <strong>Telegram</strong>, you can contact <a class="tgme_username_link"')>=0 and c not in ban:
 				ok+=1
 				sk+=1
-				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحه ✓\n────── • ✧✧ • ──────\n‹ صدتلك يوزر : @{c}\n────── • ✧✧ • ──────\n• مطور البوت @QQWGT")
+				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحه ✓\n────── • ✧✧ • ──────\n‹ صدتلك يوزر : @{c}\n────── • ✧✧ • ──────\n• مطور البوت @Y_i_y_q")
 				
 			else:
 				cp+=1
@@ -493,7 +493,7 @@ def masg(call):
 			if response.text.find('If you have <strong>Telegram</strong>, you can contact <a class="tgme_username_link"')>=0 and c not in ban:
 				ok+=1
 				sk+=1
-				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحه ✓\n────── • ✧✧ • ──────\n‹ صدتلك يوزر : @{c}\n────── • ✧✧ • ──────\n• مطور البوت @QQWGT")
+				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحه ✓\n────── • ✧✧ • ──────\n‹ صدتلك يوزر : @{c}\n────── • ✧✧ • ──────\n• مطور البوت @Y_i_y_q")
 				
 			else:
 				cp+=1
@@ -534,7 +534,7 @@ def masg(call):
 			if response.text.find('If you have <strong>Telegram</strong>, you can contact <a class="tgme_username_link"')>=0 and j not in ban:
 				ok+=1
 				sk+=1
-				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحه ✓\n────── • ✧✧ • ──────\n‹ صدتلك يوزر : @{j}\n────── • ✧✧ • ──────\n• مطور البوت @QQWGT")
+				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحه ✓\n────── • ✧✧ • ──────\n‹ صدتلك يوزر : @{j}\n────── • ✧✧ • ──────\n• مطور البوت @Y_i_y_q")
 			else:
 				cp+=1
 				sk+=1
@@ -579,7 +579,7 @@ def masg(call):
 			if response.text.find('If you have <strong>Telegram</strong>, you can contact <a class="tgme_username_link"')>=0 and cs not in ban:
 				ok+=1
 				sk+=1
-				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحه ✓\n────── • ✧✧ • ──────\n‹ صدتلك يوزر : @{cc}\n────── • ✧✧ • ──────\n• مطور البوت @QQWGT")
+				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحه ✓\n────── • ✧✧ • ──────\n‹ صدتلك يوزر : @{cc}\n────── • ✧✧ • ──────\n• مطور البوت @Y_i_y_q")
 				
 			else:
 				cp+=1
